@@ -1,8 +1,12 @@
 # AI Video Stüdyosu
 
-İki fotoğraftan, hazır bir senaryoya göre ~15 saniyelik dikey (1080x1920) yapay zekâ hikâye videosu üreten, **tamamen ücretsiz** bir araç.
+Sosyal medyada ünlenen çiftlerin zombi video oluşturma araçlarının ücretsiz versiyonunu yapmayı amaçladım.
+
+iki fotoğraftan, hazır bir senaryoya göre ~15 saniyelik dikey (1080x1920) yapay zekâ hikâye videosu üreten, **tamamen ücretsiz** bir araç.
 
 Arayüz kendi bilgisayarında çalışır. Ağır AI işini ise Kaggle'ın ücretsiz T4 GPU'sunda çalışan ComfyUI yapar. Ücretli API kullanılmaz.
+
+> Projenin çoğunluğu Claude Code ile yapıldı.  
 
 ## Nasıl çalışır?
 
