@@ -1,0 +1,1 @@
+Şablonlarda yazdığın müzik dosyalarını (ör. dramatik.mp3, romantik.mp3) bu klasöre koy.

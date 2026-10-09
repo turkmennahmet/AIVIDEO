@@ -1,0 +1,27 @@
+ad: Aşk Hikayesi
+aciklama: İlk karşılaşmadan yaşlılığa romantik bir yolculuk.
+muzik: romantik.mp3
+gecis: 0.5
+
+sahneler:
+  - kisi: kisi1
+    gorsel: "the person as a young adult sitting in a cozy cafe by the window, rainy day, soft light, cinematic film still"
+    hareket: "she looks up from her coffee and smiles shyly at someone off-camera"
+    sure: 4
+    yazi: "İlk bakış..."
+
+  - kisi: kisi2
+    gorsel: "the person as a young adult standing at a cafe counter, holding flowers, nervous smile, cinematic film still"
+    hareket: "he walks forward slowly holding the flowers, smiling nervously"
+    sure: 4
+
+  - kisi: ikisi
+    gorsel: "the two people dancing at their wedding, string lights, evening garden, cinematic"
+    hareket: "they slow dance and spin gently, guests blurred in the background"
+    sure: 4
+    yazi: "Sonsuza kadar"
+
+  - kisi: ikisi
+    gorsel: "the two people as an elderly couple sitting on a bench by the sea at sunset, holding hands"
+    hareket: "she rests her head on his shoulder, waves move softly, slow camera pull-back"
+    sure: 5

@@ -1,0 +1,54 @@
+# Hikâye: kişi1 zombiye dönüşür, kişi2 silah doğrultur ama acıyıp indirir.
+# Zombi ona atladığı anda beyaz flaşla geçmişe dönülür: gençken sarılırlar.
+#
+# Alanlar:
+#   kisi:          kisi1 | kisi2 | ikisi   (sahnede kim görünecek)
+#   gorsel:        sahnenin ilk karesini üretecek tarif (AI modelleri İngilizceyi daha iyi anlar)
+#   hareket:       o kareyi videoya çevirecek hareket tarifi
+#   sure:          saniye
+#   yazi:          ekranda çıkacak yazı (isteğe bağlı)
+#   sonraki_gecis: yumusak | beyaz | siyah   (bu sahneden sonrakine geçiş, varsayılan yumusak)
+
+ad: Zombi Hikayesi
+aciklama: "Kişi 1 (kadın) zombiye dönüşür, Kişi 2 (erkek) vuramaz; geçmişe dönüp sarılırlar."
+muzik: dramatik.mp3     # music/ klasörüne koy; yoksa video sessiz olur
+gecis: 0.4
+
+sahneler:
+  - kisi: kisi1
+    gorsel: "medium close-up of the person standing in an old wooden village house, her face clearly lit by soft window light from the side, moody but not dark, cinematic horror film still, 35mm"
+    hareket: "her skin slowly turns grey and cracks, her eyes turn milky white, she transforms into a zombie and growls"
+    sure: 3
+
+  - kisi: kisi2
+    gorsel: "the person aiming a pistol straight at the camera in a dark wooden house, terrified, tears in his eyes, dramatic window light, cinematic"
+    hareket: "his hands tremble while aiming the gun, breathing heavily"
+    sure: 2.5
+    yazi: "Ne oldu sana?"
+
+  - kisi: kisi1
+    gorsel: "the person as a zombie, pale grey cracked skin, white blind eyes, rotten teeth, same clothes and glasses, dark wooden house, horror film still"
+    hareket: "the zombie screams and lunges forward toward the camera to attack"
+    sure: 2.5
+
+  - kisi: kisi2
+    gorsel: "close-up of the person crying, glasses, holding a pistol down, dark wooden house, cinematic shallow depth of field"
+    hareket: "he slowly lowers the gun out of pity, a tear runs down his cheek, he closes his eyes"
+    sure: 2.5
+    yazi: "Vuramadı..."
+
+  - kisi: kisi1
+    gorsel: "the person as a zombie leaping toward the camera, arms outstretched, face clearly visible, wooden house, dramatic light, horror film still"
+    hareket: "she jumps toward the camera with arms reaching out, fast motion"
+    sure: 1.8
+    sonraki_gecis: beyaz   # atladığı an flaş -> geçmiş
+
+  - kisi: ikisi
+    gorsel: "the two people as a young couple in a golden meadow at sunset, she jumps into his arms, both faces visible, warm golden side light, happy, cinematic film still"
+    hareket: "she leaps into his arms and he spins her around, both laughing, sun flares, slow motion"
+    sure: 3.5
+
+  - kisi: ikisi
+    gorsel: "close-up of the two people laughing together, faces touching, warm golden hour light, cinematic"
+    hareket: "they laugh joyfully, foreheads touching, soft breeze in hair"
+    sure: 2.6
